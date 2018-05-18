@@ -16,7 +16,7 @@ const createUser = (req, res) => {
     .catch(error => {
       res
         .status(500)
-        .send('error')
+        .send('error: User could not be created')
     });
 };
 
